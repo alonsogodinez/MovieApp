@@ -75,7 +75,7 @@ class Home extends Component {
 
     const newMovie = {
       imageURL: "/img/streetfighter.png",
-      name: this.movieNameInput.value,
+      name: this.movieNameInput.value.toUpperCase(),
       releaseYear: this.movieReleaseYearInput.value,
       grossIncome:this.movieGrossIncomeInput.value,
       directorName: this.movieDirectorNameInput.value,
